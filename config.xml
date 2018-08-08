@@ -6,10 +6,10 @@
         versionCode = "35100"
         android-versionCode="35100"
         version   = "3.5.1">
-    <name>Moodle</name>
+    <name>Savoir-Guinee</name>
 
     <description>
-        Moodle official app
+        Savoir-Guinee official app
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
@@ -142,7 +142,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" >
-        <param name="URL_SCHEME" value="moodlemobile" />
+        <param name="URL_SCHEME" value="mooc.savoirguinee.com" />
     </gap:plugin>
     <gap:plugin name="ionic-plugin-keyboard" source="npm" />
     <gap:plugin name="cordova-plugin-zip" source="npm" />
